@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	Config
+%define		pdir	Tie
+%define		pnam	Config
 Summary:	Tie::Config - class definitions for tied hashes config file reading
 Summary(pl):	Tie::Config - klasa do czytania pliku konfiguracyjnego z powi±zanymi haszami
 Name:		perl-Tie-Config
