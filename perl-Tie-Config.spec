@@ -5,10 +5,10 @@
 %define	pdir	Tie
 %define	pnam	Config
 Summary:	Tie::Config - class definitions for tied hashes config file reading
-#Summary(pl):	
+Summary(pl):	Tie::Config - klasa do czytania pliku konfiguracyjnego z powi±zanymi haszami
 Name:		perl-Tie-Config
 Version:	0.04
-Release:	1
+Release:	2
 License:	custom (free, Artistic-like)
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -20,8 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Tie::Config - class definitions for tied hashes config file reading.
 
-# %description -l pl
-# TODO
+%description -l pl
+Tie::Config - definicje klasy do czytania pliku konfiguracyjnego z
+powi±zanymi haszami.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
