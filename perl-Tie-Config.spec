@@ -9,7 +9,7 @@ Summary:	Tie::Config - class definitions for tied hashes config file reading
 Summary(pl):	Tie::Config - klasa do czytania pliku konfiguracyjnego z powi±zanymi haszami
 Name:		perl-Tie-Config
 Version:	0.04
-Release:	3
+Release:	4
 License:	custom (free, Artistic-like)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
