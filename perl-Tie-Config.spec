@@ -28,7 +28,7 @@ powi±zanymi haszami.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"Tie::Config")' Makefile.PL
+%{__perl} -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"Tie::Config")' Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
